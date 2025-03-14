@@ -74,7 +74,7 @@ const Products = () => {
     ];
 
     return (
-        <section id="products" className="section products-section">
+        <section id="products" className="section products-section" style={{backgroundColor:"#dfe6e9"}}>
             <div className="container">
                 <h2>Our Products</h2>
                 <div className="product-grid">
