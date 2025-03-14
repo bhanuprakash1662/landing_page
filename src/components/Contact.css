@@ -1,0 +1,42 @@
+/* Contact Section */
+.section {
+    padding: 80px 20px;
+    background: #f8f9fa;
+    text-align: center;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Heading */
+.section h2 {
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Contact Info */
+.container p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #444;
+}
+
+/* Strong Tags for Labels */
+.container p strong {
+    color: #ff6600;
+    font-size: 1.3rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .section h2 {
+        font-size: 2.2rem;
+    }
+
+    .container p {
+        font-size: 1.1rem;
+    }
+}

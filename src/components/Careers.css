@@ -1,0 +1,64 @@
+/* Careers Section */
+.section {
+    padding: 80px 20px;
+    background: #f8f9fa;
+    text-align: center;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Heading */
+.section h2 {
+    font-size: 2.8rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+/* Paragraph */
+.section p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+/* Join Us Button */
+.btn {
+    display: inline-block;
+    background: #ff6600;
+    color: white;
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background: #e65c00;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .section {
+        padding: 60px 15px;
+    }
+
+    .section h2 {
+        font-size: 2.2rem;
+    }
+
+    .section p {
+        font-size: 1.1rem;
+    }
+
+    .btn {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+}
