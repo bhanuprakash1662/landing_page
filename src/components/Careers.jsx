@@ -15,7 +15,7 @@ const Careers = () => {
     rel="noopener noreferrer" 
     className="btn join-us-btn"
 >
-    Join Us
+    Join with Us
 </a>
 
                 
