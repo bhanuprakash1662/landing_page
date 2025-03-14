@@ -147,7 +147,7 @@ const Footer = () => {
                         <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                             <i className="fab fa-linkedin-in"></i>
                         </a>
-                        <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                        <a href="https://www.instagram.com/lensup0428/?igsh=MTQ1dTdiNmVzNmxuNA%3D%3D#" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
                             <i className="fab fa-instagram"></i>
                         </a>
                     </div>

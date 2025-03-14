@@ -75,6 +75,33 @@ h2 {
     grid-template-columns: repeat(4, 1fr); /* 4 columns */
     gap: 20px;
 }
+.product-image {
+    width: 100px; /* Adjust size as needed */
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.product-image {
+    width: 100px; /* Adjust size as needed */
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.center-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 200px; /* Ensure it has a fixed height */
+    min-height: 200px; /* Prevent collapsing */
+    padding: 20px; /* Add spacing */
+}
+
 
 @media (max-width: 768px) {
     .product-grid {
