@@ -1,4 +1,12 @@
 /* Section Styling */
+
+.products-section {
+    background-color: #dfe6e9; /* Softer light greyish-blue background */
+    padding: 80px 0; /* More spacing for better layout */
+    width: 100%;
+}
+
+
 .section {
     padding: 60px 0;
     background-color: #f9f9f9; /* Light background */
@@ -35,6 +43,8 @@ h2 {
     text-align: center;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
+
+
 
 .product-box:hover {
     transform: translateY(-5px); /* Lift effect on hover */
